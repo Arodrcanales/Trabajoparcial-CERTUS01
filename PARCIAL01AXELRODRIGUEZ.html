@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>STREAMSPACE</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- en el encabezado ira el titulo y un contacto de referecia -->
+    <header>
+        <!-- titulo de la empresa -->
+        <div class="titulo">
+             <h1>STREAMSPACE</h1> 
+             <h2>venta de plataformas de streming</h2>
+        </div>  
+    </header>
+
+<!-- linea que dividira el contenido con el titulo -->
+ <hr>
+
+    <!-- lista de los productos y promociones -->
+    <main>
+        <!-- plataformas disponibles -->
+        <section class="plataformas">
+
+            <!-- articulo 1 netflix -->
+            <article>
+                <img class="imagen"  src="netflix.jpg" alt="netflix" width="200" height="200">
+                <h3>NETFLIX</h3>
+                <p>membresias de <span class="logo1" >NETFLIX</span></p>
+                <input type="checkbox" name="netflix"> 1 MES X 14.00 SOLES <br>
+                <input type="checkbox" name="netflix"> 3 MES X <span class="descuento">36.00 SOLES</span>
+                <p><input class="boton" type="submit" value="añadir al carrito"></p>
+            </article>
+            <!-- articulo 2 hbomax -->
+            <article>
+                <img class="imagen"  src="hbomax.png" alt="hbomax" width="200" height="200">
+                <h3>HBOMAX</h3>
+                <p>membresias de <span class="logo2" >HBOMAX</span></p>
+                <input type="checkbox" name="hbomax"> 1 MES X 6.00 SOLES <br>
+                <input type="checkbox" name="hbomax"> 3 MES X <span class="descuento">16.00 SOLES</span>
+                <p><input class="boton" type="submit" value="añadir al carrito"></p>
+            </article>
+            <!-- articulo 3 starplus -->
+            <article>
+                <img class="imagen"  src="starplus.png" alt="starplus" width="200" height="200">
+                <h3>STARPLUS</h3>
+                <p>membresias de <span class="logo3" >STARPLUS</span></p>
+                <input type="checkbox" name="starplus"> 1 MES X 9.00 SOLES <br>
+                <input type="checkbox" name="starplus"> 3 MES X <span class="descuento">24.00 SOLES</span>
+                <p><input class="boton" type="submit" value="añadir al carrito"></p>
+            </article>
+            <!-- articulo 4 disneyplus -->
+            <article>
+                <img class="imagen"  src="disney.jpg" alt="disneyplus" width="200" height="200">
+                <h3>DISNEYPLUS</h3>
+                <p>membresias de <span class="logo4" >DISNEYPLUS</span></p>
+                <input type="checkbox" name="disneyplus"> 1 MES X 7.00 SOLES <br>
+                <input type="checkbox" name="disneyplus"> 3 MES X <span class="descuento">19.00 SOLES</span>
+                <p><input class="boton" type="submit" value="añadir al carrito"></p>
+            </article>
+            <!-- articulo 5 amazonprime -->
+            <article>
+                <img class="imagen"  src="amazonprime.png" alt="amazonprime" width="200" height="200">
+                <h3>AMAZONPRIME</h3>
+                <p>membresias de <span class="logo5" >AMAZONPRIME</span></p>
+                <input type="checkbox" name="amazonprime"> 1 MES X 6.00 SOLES <br>
+                <input type="checkbox" name="amazonprime"> 3 MES X <span class="descuento">16.00 SOLES</span>
+                <p><input class="boton" type="submit" value="añadir al carrito"></p>
+            </article>
+            <!-- articulo 6 youtube premium -->
+            <article>
+                <img class="imagen"  src="youtube.png" alt="youtube premium" width="200" height="200">
+                <h3>YOUTUBE PREMIUM</h3>
+                <p>membresias de <span class="logo6" >YT PREMIUM</span></p>
+                <input type="checkbox" name="youtube"> 1 MES X 10.00 SOLES <br>
+                <input type="checkbox" name="youtube"> 3 MES X <span class="descuento">24.00 SOLES</span>
+                <p><input class="boton" type="submit" value="añadir al carrito"></p>
+            </article>
+            <!-- articulo 7 iptv -->
+            <article>
+                <img class="imagen"  src="iptv.jpg" alt="iptv" width="200" height="200">
+                <h3>IPTV</h3>
+                <p>membresias de <span class="logo7" >IPTV</span></p>
+                <input type="checkbox" name="iptv"> 1 MES X 5.00 SOLES <br>
+                <input type="checkbox" name="iptv"> 3 MES X <span class="descuento">12.00 SOLES</span>
+                <p><input class="boton" type="submit" value="añadir al carrito"></p>
+            </article>
+            <!-- articulo 8 directvgo -->
+            <article>
+                <img class="imagen"  src="directv.png" alt="directv" width="200" height="200">
+                <h3>DIRECTVGO</h3>
+                <p>membresias de <span class="logo8" >DIRECTVGO</span></p>
+                <input type="checkbox" name="directv"> 1 MES X 15.00 SOLES <br>
+                <input type="checkbox" name="directv"> 3 MES X <span class="descuento">30.00 SOLES</span>
+                <p><input class="boton" type="submit" value="añadir al carrito"></p>
+            </article>
+        </section>
+
+        <!-- promocion -->
+        <section class="promo">
+            <aside>
+              <!-- crearemos una promocion en combos -->
+              <div class="oferta"> 
+                <img src="vengadores.jpg" alt="endgame">
+              </div>
+              <hr>
+              <!-- info de la oferta -->
+              <div class="reseña">
+                <p>CONTRATANDO EL COMBO+ PODRAS LLEVARTE DISNEYPLUS Y STARPLUS JUNTOS A 3 MESES X 55 SOLES </p> <br>
+                <p>Esta promoción solo es valida hasta el 15/06/23 y valido para usurios nuevos</p>
+                <br>
+                <!-- boton para adquirir la promocion -->
+                <input type="button" value="adquirir COMBO+">
+              </div>
+            </aside>
+        </section>
+
+    </main>
+    <!-- info - terminos y condiciones  -->
+    <footer>
+        <p> Esta empresa peruana se dedica a la venta de cuentas de plataformas de streaming de pago mensual, si tiene algun tipo de duda o reclamo antes de la compra revise los <a href="#">terminos y condiciones</a> de esta pagina.</p> <br>
+        <p class="autor">Esta empresa es creada por Axel Rodriguez</p>
+    </footer>
+</body>
+</html>
